@@ -59,6 +59,7 @@ If the included `node_modules` are not working:
 - The API keys for both frontend and backend are already configured in their respective `.env` files.
 - Ensure the API keys are valid and correctly set up in the `.env` files if you encounter issues with API requests.
 
-
+## UI Folder 
+This folder has working UI screenshot
 
 
