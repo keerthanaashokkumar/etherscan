@@ -18,19 +18,26 @@ The project is divided into two main directories:
 ### Installing Dependencies (if needed)
 
 If the included `node_modules` are not working:
-1. Navigate to the `client` directory:
+1. Navigate to the `server` directory:
+ 
+   cd server
+   npm install
+2. Navigate to the `client` directory:
   
    cd client
    npm install
 
-2. Navigate to the `server` directory:
- 
-   cd server
-   npm install
-   
-
 ## Running the Project
 
+### Starting the Backend
+1. Navigate to the `server` directory:
+  
+   cd server
+
+2. Start the backend:
+
+   node index.js
+   
 ### Starting the Frontend
 1. Navigate to the `client` directory:
   
@@ -41,14 +48,6 @@ If the included `node_modules` are not working:
    npm run start
  
 
-### Starting the Backend
-1. Navigate to the `server` directory:
-  
-   cd server
-
-2. Start the backend:
-
-   node index.js
   
 
 ### Verifying Backend
